@@ -93,10 +93,10 @@ header{
 }
 
 .slide-left{
-    animation: slideleft 2s linear forwards;
+    animation: slideright 2s linear forwards;
 }
 
-@keyframes slideleft{
+@keyframes slideright{
     0% {
         transform: translate(100px);
         opacity: 0;
