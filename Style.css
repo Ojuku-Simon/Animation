@@ -1,0 +1,44 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    scroll-behavior: smooth;
+}
+header{
+    /* background: #f18000; */
+    width: 100%;
+    height: 100vh;
+    /* padding: 1.3rem 1%; */
+    background-image: url(./Night.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.logo{
+    display: flex;
+    color:white;
+    margin-left: 5%;
+
+}
+
+.head{
+    font-size: 1.2rem;
+    
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navbar ul a{
+    margin-left: 6rem;
+    color: white;
+    list-style: none;
+}
